@@ -13,3 +13,12 @@ let arraySum = Array.from({ length: maxLength }, (_, i) =>
 (array1[i] || 0) + (array2[i] || 0));
 
 console.log(arraySum);
+
+//3.
+let array = [4, 2, 8, 5];
+let sum = 0;
+
+for(let value of array) {
+    sum += value;
+}
+console.log(sum)
