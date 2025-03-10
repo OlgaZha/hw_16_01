@@ -2,6 +2,16 @@
 // let arr = [32, 23, 65, 4, 8, 10, 12];
 // let maxValue = Math.max(...arr);
 // console.log(maxValue);
+// let arr = [32, 23, 65, 4, 8, 10, 12];
+// let max = arr[0];
+
+
+// for(let i = 1; i < arr.length; i++) {
+// if (max < arr[i]) {
+//   max = arr[i];
+// }
+// }
+// console.log(max);
 
 // //2.
 // let array1 = [1, 0, 2, 3, 4];
@@ -13,6 +23,21 @@
 // (array1[i] || 0) + (array2[i] || 0));
 
 // console.log(arraySum);
+
+//////////////////////////////////////////////////////
+// let array1 = [1, 0, 2, 3, 4];
+// let array2 = [3, 5, 6, 7, 8, 13];
+
+// let array3 = [];
+// let sum = 0;
+
+// let maxLength = array1.length > array2.length ? array1.length : array2.length;
+
+// for (let i = 0; i < maxLength; i++) {
+// sum = (array1[i] || 0) + (array2[i]|| 0); 
+// array3.push(sum);
+// }
+//////////////!!!!ten sam przykład na czwartek, tylko z if else
 
 // //3.
 // let array = [4, 2, 8, 5];

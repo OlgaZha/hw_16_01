@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Monserrat", sans-serif;
 }
 
 body {
@@ -15,6 +16,16 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+nav {
+color: yellow;
+}
+#menu-item-id {
+    color: aqua;
+}
+li {
+    color: bisque;
 }
 
 .menu {
